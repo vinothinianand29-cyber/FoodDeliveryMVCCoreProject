@@ -1,0 +1,32 @@
+﻿@model FoodDetails
+
+<form asp-controller="Foods" asp-action="Create" method="post">
+
+    <div>
+        
+       <div>
+           <label>FoodName</label>
+            <input asp-for="FoodName" type="text" required />
+       </div>
+         <div>
+            <label>Category</label>
+            <input asp-for="Category" type="text" required />
+       </div>
+
+        <div>
+            <label>Price</label>
+            <input asp-for="Price" type="text" required />
+        </div>
+
+          <div>
+            <label>IsAvailable</label>
+            <input asp-for="IsAvailable" type="checkbox" />
+       </div>
+
+        <div>
+            <input class="btn-success" type="submit" />
+        </div>
+
+    </div>
+</form>
+
