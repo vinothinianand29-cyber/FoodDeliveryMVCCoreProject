@@ -52,7 +52,7 @@ namespace FoodDeliveryMVCCoreProject.Controllers
             _ctx.FoodData.Update(save);
             _ctx.SaveChanges();
             return RedirectToAction("Read");
-            Console.WriteLine("RETYUYHukjl");
+
 
         }
 
